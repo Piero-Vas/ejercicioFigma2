@@ -43,6 +43,11 @@ header ul li{
     margin: 0 15px;
     font-size: 20px;
 }
+a:hover {
+    border-bottom: 1px solid #87119A;
+    padding-bottom: 3px;
+    color: #87119A;
+}
 
 .nosotros , .servicios , .portafolio{
     padding: 50px 30px;
