@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.logo{
+    font-weight: bold;
+    color: #87119A;
+}
+
+header{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    background: #9ECEFA;
+    padding: 20px 30px;
+    align-items: center;
+    color: white;
+}
+
+span{
+    font-size: 25px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.nosotros , .servicios , .portafolio{
+    padding: 50px 30px;
+}
+
+h1{
+    border-left: 5px solid #87119A ;
+    margin-bottom: 20px;
+    color: #87119A;
+    padding-left: 20px;
+}
+
+.imagenes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.imagenes2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.imagenes3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.img1{
+    border-radius:20px 0px 20px 0px;
+    height: 350px;
+    margin: 10px;
+}
+.img2{
+    border-radius:20px 0px 20px 0px;
+    height: 450px;
+    margin: 10px;
+}
+.img3{
+    border-radius:20px 0px 20px 0px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45em;
+    padding: 50px 30px;
+}
+
+.info img{
+    width: 70%;
+    height: 500px;
+    margin-right: 20px;
+}
+
+
+.info{
+    display: flex;
+}
+
+.info2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.info2 p{
+    font-weight: bold;
+}
+.info2 div{
+    
+    margin-bottom: 10px;
+}
+
+.info span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.info div{
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 103px;
+    display: flex;
+    background: #00AF1C;
+    padding: 20px 30px;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p{
+    font-weight: bold;
+}
